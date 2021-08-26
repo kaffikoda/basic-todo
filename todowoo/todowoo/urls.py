@@ -22,5 +22,7 @@ urlpatterns = [
 
     #Authentucation
     path('signup/', views.signupuser, name='signupuser'),
+    path('logout/', views.logoutuser, name='logoutuser'),
+    path('', views.homepage, name='homepage'),
     path('current/', views.currentpage, name='currentpage')
 ]
